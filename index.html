@@ -3,20 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WorkAtlas Staffing Group | Recruitment & Staffing Solutions</title>
-  <meta name="description" content="WorkAtlas Staffing Group provides recruitment, bulk hiring, contract staffing and payroll outsourcing services across India." />
+  <title>WorkAtlas Staffing Group | Recruitment & HR Consulting</title>
+  <meta name="description" content="WorkAtlas Staffing Group – Professional recruitment, executive search, bulk hiring and HR consulting services across India and internationally." />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; color: #333; }
-    header { background: #0f2a44; color: #fff; padding: 20px 40px; }
-    header h1 { margin: 0; }
-    nav a { color: #fff; margin-right: 15px; text-decoration: none; font-weight: bold; }
-    section { padding: 40px; }
-    .hero { background: #f4f6f8; text-align: center; }
-    .hero h2 { font-size: 32px; }
-    .services, .industries { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-    .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    footer { background: #0f2a44; color: #fff; text-align: center; padding: 20px; }
-    .btn { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #0f2a44; color: #fff; text-decoration: none; border-radius: 4px; }
+    body{margin:0;font-family:'Segoe UI',Arial,Helvetica,sans-serif;color:#222;line-height:1.6;background:#e6f2ff}
+    header{background:linear-gradient(90deg,#4169e1,#1e90ff);color:#fff;padding:18px 60px;display:flex;justify-content:space-between;align-items:center}
+    header h1{margin:0;font-size:24px;font-weight:700}
+    nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:14px;font-weight:500}
+    nav a:hover{text-decoration:underline}
+    .hero{background:linear-gradient(120deg,#d9e6ff,#e0f7ff,#ffffff);padding:90px 60px;display:grid;grid-template-columns:1.2fr 1fr;gap:40px}
+    .hero h2{font-size:42px;margin-bottom:20px;color:#1e90ff}
+    .hero p{font-size:18px}
+    .btn{display:inline-block;background:linear-gradient(90deg,#4169e1,#1e90ff);color:#fff;padding:14px 30px;text-decoration:none;border-radius:30px;font-weight:700;box-shadow:0 8px 18px rgba(0,0,0,.2)}
+    .btn:hover{opacity:.9}
+    .section{padding:80px 60px}
+    .section h3{font-size:34px;color:#1e90ff;margin-bottom:25px;text-align:center}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:25px}
+    .card{border:none;padding:30px;border-radius:16px;background:linear-gradient(145deg,#ffffff,#d9e6ff);box-shadow:0 12px 30px rgba(0,0,0,.12)}
+    .card:hover{transform:translateY(-6px)}
+    .card h4{margin-top:0;color:#4169e1;font-size:20px}
+    .about{background:#ffffff}
+    .industries{background:linear-gradient(120deg,#e6f0ff,#d9e6ff)}
+    .industries ul{columns:2;-webkit-columns:2;-moz-columns:2;list-style:square}
+    .industries li{margin-bottom:12px;font-weight:500}
+    #leadership{background:linear-gradient(120deg,#d9e6ff,#e0f7ff)}
+    #careers{background:linear-gradient(120deg,#d9e6ff,#ffffff)}
+    .cta{background:linear-gradient(90deg,#4169e1,#1e90ff);color:#fff;text-align:center;padding:80px 40px}
+    .cta h3{font-size:36px;margin-bottom:15px;color:#fff}
+    footer{background:#4169e1;color:#f0f8ff;padding:45px 60px;font-size:14px}
+    footer p{margin:8px 0}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}.industries ul{columns:1}header{flex-direction:column;align-items:flex-start}}
+    .card img{width:130px;height:130px;border-radius:50%;object-fit:cover;margin-bottom:15px;border:4px solid #1e90ff}
   </style>
 </head>
 <body>
@@ -32,61 +49,100 @@
 </header>
 
 <section class="hero">
-  <h2>Your Partner in Recruitment & Workforce Solutions</h2>
-  <p>We help businesses hire faster with reliable recruitment, bulk hiring, contract staffing, and payroll outsourcing services across India.</p>
-  <a href="#contact" class="btn">Get in Touch</a>
+  <div>
+    <h2>Trusted Recruitment & HR Consulting Partner</h2>
+    <p>WorkAtlas Staffing Group delivers high-quality recruitment solutions to organizations across industries and internationally. We help businesses attract, assess, and hire the right talent efficiently across borders.</p>
+    <a class="btn" href="#contact">Get in Touch</a>
+  </div>
+  <div>
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="Recruitment Team" style="width:100%;border-radius:20px;box-shadow:0 15px 35px rgba(0,0,0,.25);margin-bottom:20px" />
+    <p><strong>Our Focus</strong></p>
+    <p>Executive Search • Permanent Hiring • Bulk Hiring • Contract Staffing • HR Support • International Hiring</p>
+  </div>
 </section>
 
-<section id="about">
-  <h2>About Us</h2>
-  <p>WorkAtlas Staffing Group is a professional recruitment and staffing firm delivering cost-effective and timely hiring solutions. With hands-on experience in volume hiring and HR operations, we support startups, SMEs, and large organizations in building strong teams.</p>
+<section class="section about" id="about">
+  <h3>About WorkAtlas Staffing Group</h3>
+  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80" alt="About Recruitment" style="width:100%;max-height:380px;object-fit:cover;border-radius:22px;margin-bottom:35px" />
+  <p>WorkAtlas Staffing Group is a professional recruitment and HR consulting firm committed to delivering reliable, ethical, and result-driven hiring solutions. We partner with organizations to understand their talent needs and provide customized staffing support aligned with business goals, including international recruitment for global clients.</p>
 </section>
 
-<section id="services">
-  <h2>Our Services</h2>
-  <div class="services">
+<section class="section" id="services">
+  <h3>Our Services</h3>
+  <div class="cards">
+    <div class="card"><img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=400&q=80" alt="Executive Search" /><h4>Executive Search</h4><p>Leadership and senior-level hiring with a structured search approach.</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=400&q=80" alt="Permanent Recruitment" /><h4>Permanent Recruitment</h4><p>End-to-end hiring solutions for mid and junior-level positions.</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=400&q=80" alt="Bulk Hiring" /><h4>Bulk & Volume Hiring</h4><p>Scalable hiring solutions for retail, BPO, logistics, and operations.</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1532634896-26909d0d8b1c?auto=format&fit=crop&w=400&q=80" alt="Contract Staffing" /><h4>Contract Staffing</h4><p>Flexible workforce solutions with compliance and payroll support.</p></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80" alt="International Hiring" /><h4>International Hiring</h4><p>Recruitment solutions for global clients, including overseas staffing, visa support, and cross-border talent acquisition.</p></div>
+  </div>
+</section>
+
+<section class="section" id="leadership">
+  <h3>Leadership Team</h3>
+  <div class="cards">
     <div class="card">
-      <h3>Permanent Recruitment</h3>
-      <p>End-to-end hiring solutions for junior to senior-level positions across multiple domains.</p>
+      <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=400&q=80" alt="Ms. Gurpreet Kaur" />
+      <h4>Ms. Gurpreet Kaur</h4>
+      <p><strong>Founder & Director</strong></p>
+      <p>Ms. Gurpreet Kaur leads WorkAtlas Staffing Group with a strong vision to deliver ethical, result-oriented recruitment solutions. She brings hands-on experience in talent acquisition, client management, and business strategy across multiple industries.</p>
     </div>
     <div class="card">
-      <h3>Bulk Hiring</h3>
-      <p>High-volume recruitment for BPOs, retail chains, sales teams, and frontline roles.</p>
-    </div>
-    <div class="card">
-      <h3>Contract Staffing</h3>
-      <p>Flexible workforce deployment with complete payroll and compliance management.</p>
-    </div>
-    <div class="card">
-      <h3>Payroll Outsourcing</h3>
-      <p>Salary processing, payslips, and statutory coordination to reduce HR workload.</p>
+      <img src="https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=400&q=80" alt="Ms. Arti Devi" />
+      <h4>Ms. Arti Devi</h4>
+      <p><strong>Head – Recruitment & BDM</strong></p>
+      <p>Ms. Arti Devi oversees recruitment operations and business development, ensuring quality hiring, client satisfaction, and growth partnerships across domestic and international markets.</p>
     </div>
   </div>
 </section>
 
-<section id="industries">
-  <h2>Industries We Serve</h2>
-  <div class="industries">
-    <div class="card">BPO / KPO</div>
-    <div class="card">Retail & E-commerce</div>
-    <div class="card">Real Estate</div>
-    <div class="card">BFSI & NBFC</div>
-    <div class="card">Manufacturing</div>
-    <div class="card">Logistics & Warehousing</div>
+<section class="section industries" id="industries">
+  <h3>Industries We Serve</h3>
+  <ul>
+    <li>Retail & FMCG</li>
+    <li>BPO & KPO</li>
+    <li>IT & Technology</li>
+    <li>Logistics & Supply Chain</li>
+    <li>Manufacturing & Engineering</li>
+    <li>Real Estate & Infrastructure</li>
+    <li>Banking & Financial Services</li>
+    <li>Healthcare & Pharma</li>
+  </ul>
+</section>
+
+<section class="section" id="careers">
+  <h3>Careers – Apply with Your CV</h3>
+  <p>We are always looking for talented professionals across industries, both in India and internationally. Interested candidates can apply by sharing their CV.</p>
+  <div class="cards">
+    <div class="card">
+      <h4>Apply for Open Positions</h4>
+      <p>Please email your updated CV with the job title in the subject line.</p>
+      <p><strong>Email:</strong> <a href="mailto:info@workatlasstaffinggroup.com">info@workatlasstaffinggroup.com</a></p>
+      <p><strong>Example Subject:</strong> Application – Sales Executive (Delhi/International)</p>
+    </div>
+    <div class="card">
+      <h4>Upload CV (Google Drive)</h4>
+      <p>You may also upload your CV using the link below:</p>
+      <p><a class="btn" href="#" target="_blank">Upload Your CV</a></p>
+      <p style="font-size:13px">(Replace this link with your Google Form / Drive upload link)</p>
+    </div>
   </div>
 </section>
 
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p><strong>WorkAtlas Staffing Group</strong></p>
-  <p>Email: info@workatlasstaffing.com</p>
-  <p>Phone: +91-XXXXXXXXXX</p>
-  <p>Location: India</p>
+<section class="cta" id="contact">
+  <h3>Contact Us</h3>
+  <p><strong>Ms. Gurpreet Kaur</strong><br/>Founder & Director</p>
+  <p>Email: info@workatlasstaffinggroup.com</p>
+  <p>Location: Mohali – 140301, Punjab, India</p>
+  <a class="btn" href="mailto:info@workatlasstaffinggroup.com">Email Us</a>
 </section>
 
 <footer>
-  <p>© 2025 WorkAtlas Staffing Group. All Rights Reserved.</p>
+  <p>© 2025 WorkAtlas Staffing Group. All rights reserved.</p>
+  <p>Founder & Director: Ms. Gurpreet Kaur | Mohali – 140301</p>
+  <p>Recruitment | Executive Search | Bulk Hiring | Contract Staffing | International Hiring</p>
 </footer>
 
 </body>
 </html>
+
